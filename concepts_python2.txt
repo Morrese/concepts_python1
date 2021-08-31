@@ -1,0 +1,147 @@
+PART II
+Python
+1.  How do I run my code from the terminal?
+
+    python filename.py
+
+2.  What can I use to reference a value later in my code?
+
+    variable
+
+3.  How can I make my program display text or some value in my terminal?
+
+    print(text)
+
+4.  How can I make my code make decisions on which code to execute?
+
+    you can make code make decisions based on the the way you store data values.
+        ex. dictionary, list, strings. 
+    
+    you can also make your code make decisions by the functions you use. 
+        ex. print(), Input, math functions
+
+5.  How can I repeat blocks of code based on conditions?
+
+    while loops 
+
+
+6.  Why is it critical to ensure that our conditions eventually become false when repeating blocks of code?
+
+    to produce a boolean value
+
+7.  What are sequences and what are the differences between them?
+
+    data types that store multiple values.
+
+        a. list[]- are modifiable 
+        b. tuple()- are not modifiable
+        c. range - are list of numeric values 
+
+8.  How do I access a value within the various types of sequences?
+
+    a. use index to identify single values. 
+    b. values always start at 0 
+    c. the equation should read- variable = list_name[index number ]
+
+
+9.  What is an index when talking about sequences?
+
+    a way pyhton uses to store values by starting form 0 
+
+10. What is the index of the first value within a sequence?
+
+    0
+
+11. How can I add or remove a value from a sequence?
+
+    ammend - add 
+
+    pop - remove
+12. What is the index of the last value within a sequence?
+
+    -1
+
+13. How can I get the length of a sequence?
+
+    len() function tells you how many items are in a sequence
+        ex. while index < len(list_name)
+
+14. What can I use to reference and use a block of code later in my code?
+
+    def function:
+        def name(parameters):
+            print(arguments)
+
+15. What is DRY? 
+
+    Don't repeat yourself
+
+16. What is Scope? Provide an example.
+
+    scope is a way to single out a variable in a fumction or sequence.  
+
+17. What is the difference between parameters and arguments?
+
+    parameters are set limitations.
+
+    arguments are telling the code what to do.
+
+18. What is recursion?
+
+    a function that repeats itself.  
+
+19. How can you return a value from a function?
+
+    You can use the return statement to make your functions send Python objects back to the original function.
+
+20. Describe a dictionary. How and why would it be useful?
+
+    dictionary is a data type that provides a key and a value for the key. ex. {"key":"value"}
+
+21. How can you remove a value from a dictionary?
+
+    same way we can remove value from a sequence. 
+        ex. pop()
+
+22. How can you access and change values within a dictionary?
+
+    you can useaccess the items in a dictionary by reffering to its key name. 
+
+    also depends if value inside dictionary is list, or tuple. 
+
+23. What data types can a sequence hold?
+
+    list, strings, dictionary, and floats.
+
+24. What data types can a dictionary hold?
+
+    list, strings, floats and booleans
+
+25. How can you iterate through a dictionary?
+
+    for loops
+
+26. What is object oriented programming?
+
+    method of structuring a program by bundling related properties and behaviors into individual objects.
+
+27. Describe a class? Why are they useful?
+
+    A way to describe an object in an outline 
+
+28. What are class properties? How would I give a class an initial set of properties?
+
+    class properties are what defines it.
+        ex. colors, sizes, 
+
+29. What are class methods?
+
+    allows you to modify class
+
+30. What is inheritence?
+
+    allows us to define a class that inherits all the methods and properties from another class.
+
+31.  What are the various data types? (edited) 
+
+    list, dictionary, boolean, floats, variable, 
